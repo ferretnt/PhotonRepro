@@ -1,0 +1,615 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\PhotonRepro\\PhotonRepro.csproj": {}
+  },
+  "projects": {
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonChat\\PhotonChat.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonChat\\PhotonChat.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Demos\\PhotonUnityNetworking.Demos.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Demos\\PhotonUnityNetworking.Demos.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\PhotonUnityNetworking.Utilities.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonChat\\PhotonChat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonChat\\PhotonChat.csproj",
+        "projectName": "PhotonChat",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonChat\\PhotonChat.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonChat\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonChat\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj",
+        "projectName": "PhotonRealtime",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Demos\\PhotonUnityNetworking.Demos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Demos\\PhotonUnityNetworking.Demos.csproj",
+        "projectName": "PhotonUnityNetworking.Demos",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Demos\\PhotonUnityNetworking.Demos.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Demos\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Demos\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\PhotonUnityNetworking.Utilities.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\PhotonUnityNetworking.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\PhotonUnityNetworking.Utilities.csproj",
+        "projectName": "PhotonUnityNetworking.Utilities",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\PhotonUnityNetworking.Utilities.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj",
+        "projectName": "PhotonUnityNetworking",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj",
+        "projectName": "PhotonWebSocket",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj",
+        "projectName": "Unity.Analytics.DataPrivacy",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+        "projectName": "Unity.TextMeshPro",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\src\\PhotonRepro\\PunBasicsUWP\\PhotonRepro\\PhotonRepro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\src\\PhotonRepro\\PunBasicsUWP\\PhotonRepro\\PhotonRepro.csproj",
+        "projectName": "PhotonRepro",
+        "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\PhotonRepro\\PhotonRepro.csproj",
+        "projectJsonPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\PhotonRepro\\project.json",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\PhotonRepro\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonChat\\PhotonChat.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonChat\\PhotonChat.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonRealtime\\PhotonRealtime.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Demos\\PhotonUnityNetworking.Demos.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Demos\\PhotonUnityNetworking.Demos.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\PhotonUnityNetworking.Utilities.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking.Utilities\\PhotonUnityNetworking.Utilities.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonUnityNetworking\\PhotonUnityNetworking.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\PhotonWebSocket\\PhotonWebSocket.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.Analytics.DataPrivacy\\Unity.Analytics.DataPrivacy.csproj"
+              },
+              "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj": {
+                "projectPath": "C:\\src\\PhotonRepro\\PunBasicsUWP\\GeneratedProjects\\UWP\\Unity.TextMeshPro\\Unity.TextMeshPro.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.4.4, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -78,8 +78,11 @@ namespace Photon.Pun.Demo.PunBasics
 
 		void Start()
 		{
+			Debug.Log("Launcher.Start()");
+
 			if (!Application.isEditor) // For non-editor builds make us auto-connect. 
 			{
+				Debug.Log("Connecting");
 				Connect();
 			}
 		}

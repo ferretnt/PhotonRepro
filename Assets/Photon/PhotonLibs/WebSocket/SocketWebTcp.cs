@@ -49,6 +49,8 @@ namespace ExitGames.Client.Photon
 
         public SocketWebTcp(PeerBase npeer) : base(npeer)
         {
+            Debug.Log("SocketWebTcp: " + npeer.ServerAddress);
+            
             this.ServerAddress = npeer.ServerAddress;
             if (this.ReportDebugOfLevel(DebugLevel.INFO))
             {

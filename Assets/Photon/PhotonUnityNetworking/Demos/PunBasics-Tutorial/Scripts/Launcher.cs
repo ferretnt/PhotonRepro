@@ -76,14 +76,6 @@ namespace Photon.Pun.Demo.PunBasics
 
 		}
 
-		void Start()
-		{
-			if (!Application.isEditor) // For non-editor builds make us auto-connect. 
-			{
-				Connect();
-			}
-		}
-
 		#endregion
 
 
